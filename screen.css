@@ -43,14 +43,51 @@ p {
 
 h1 {
 
-
 }
 
 h2 {
 
+}
+
+/* ordered and unordered list */
+ol, ul {
+
+}
+ol {
+
+}
+ul {
 
 }
 
+/* nested list */
+li ol,
+li ul {
+
+}
+li ol {
+
+}
+
+/* nested list within nested list */
+li li ol {
+
+}
+
+/* nested list within nested list within nested list */
+li li li ol {
+
+}
+
+/* list item */
+li {
+
+}
+li li:last-child {
+
+}
+
+/* Responsive Media */
 img {
   display: block;
   max-width: 85%;
