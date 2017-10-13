@@ -57,40 +57,39 @@ h2 {
 
 /* ordered and unordered list */
 
-ol, ul {
-
-}
-ol {
-
-}
 ul {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  list-style-type: disc;
 
 }
 
 /* nested list */
-li ol,
+
 li ul {
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-left: 1.22em; /* 22 / 18 = 1.2222222222 */
+  padding-bottom: 0;
 
 }
-li ol {
 
-}
 
 /* nested list within nested list */
-li li ol {
+li li ul {
 
 }
 
 /* nested list within nested list within nested list */
-li li li ol {
+li li li ul {
 
 }
 
 /* list item */
 li {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 
 }
 li li:last-child {
+  padding-bottom: 0;
 
 }
 
@@ -98,4 +97,6 @@ li li:last-child {
 img {
   display: block;
   max-width: 85%;
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
