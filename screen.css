@@ -70,17 +70,15 @@ li ul {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-left: 1.22em; /* 22 / 18 = 1.2222222222 */
   padding-bottom: 0;
+  list-style-type: circle;
 
 }
 
 
 /* nested list within nested list */
 li li ul {
-
-}
-
-/* nested list within nested list within nested list */
-li li li ul {
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  list-style-type: lower-roman;
 
 }
 
