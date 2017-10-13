@@ -140,6 +140,10 @@ figcaption {
 
 }
 
+#navigation a:hover {
+  background-color: purple;
+}
+
 /* Modular Styles */
 /*
   Repeating style patterns.
