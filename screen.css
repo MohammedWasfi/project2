@@ -168,3 +168,9 @@ figcaption {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 860px) {
+}
