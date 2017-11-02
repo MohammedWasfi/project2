@@ -181,4 +181,30 @@ figcaption {
 }
 
 @media screen and (min-width: 860px) {
-}
+
+  .cssgrid #content {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column-gap: 30px;
+ }
+
+  .cssgrid #primary, .cssgrid #photoshop,
+  .cssgrid #experience, .cssgrid #secondary {
+    width: auto;
+  }
+
+  .cssgrid #primary {
+    grid-column: 1;
+  }
+
+   .cssgrid #photoshop{
+     grid-column: 1;
+   }
+
+  .cssgrid #secondary {
+    grid-column: 2/4;
+  }
+
+  .cssgrid #experience{
+    grid-column: 2/4;
+  }
