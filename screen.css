@@ -143,7 +143,7 @@ figcaption {
   text-decoration: none;
   background-color: teal;
   color: honeydew;
-  font-family: Arial Rounded MT;
+  font-family: "Arial Rounded MT";
 
 }
 
@@ -193,7 +193,7 @@ figcaption {
     grid-column: 1;
   }
 
-  .cssgrid #experience{
+  .cssgrid #experience {
     grid-column: 2/4;
   }
 
@@ -201,14 +201,17 @@ figcaption {
 
 @media screen and (min-width: 860px) {
 
-  .cssgrid #content, #content-resume {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-column-gap: 30px;
- }
+  .cssgrid #content,
+  .cssgrid #content-resume {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+  }
 
-  .cssgrid #primary, .cssgrid #photoshop,
-  .cssgrid #experience, .cssgrid #secondary {
+  .cssgrid #primary,
+  .cssgrid #photoshop,
+  .cssgrid #experience,
+  .cssgrid #secondary {
     width: auto;
   }
 
@@ -216,14 +219,15 @@ figcaption {
     grid-column: 1;
   }
 
-   .cssgrid #photoshop{
-     grid-column: 1;
-   }
+  .cssgrid #photoshop {
+    grid-column: 1;
+  }
 
   .cssgrid #secondary {
     grid-column: 2/4;
   }
 
-  .cssgrid #experience{
+  .cssgrid #experience {
     grid-column: 2/4;
   }
+}
