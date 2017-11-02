@@ -44,17 +44,22 @@ p {
 }
 
 h1 {
-  font-size: 2.5556em; /* 44 / 18 = 2.5556 */
+  font-size: 2.38889em; /* 42 / 18 = 2.38889 */
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
   text-align: center;
+  font-family: Georgia;
+
 
 }
 
 h2 {
-  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  font-size: 1.8333em; /* 33 / 18 = 1.8333 */
   line-height: 1.032em; /* 33 / 31.984 = 1.032 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+  font-family: monospace;
+  font-weight: bold;
+
 
 }
 
@@ -137,6 +142,7 @@ figcaption {
   text-decoration: none;
   background-color: teal;
   color: honeydew;
+  font-family: Arial Rounded MT;
 
 }
 
