@@ -183,7 +183,8 @@ figcaption {
 
 @media screen and (min-width: 640px) {
 
-  .cssgrid #content-resume {
+  .cssgrid #content-resume,
+  .cssgrid #content-home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 25px;
@@ -197,12 +198,21 @@ figcaption {
     grid-column: 2/4;
   }
 
+  .cssgrid #about {
+    grid-column: 1;
+  }
+
+  .cssgrid #picture {
+    grid-column: 2/4;
+  }
+
 }
 
 @media screen and (min-width: 860px) {
 
   .cssgrid #content,
-  .cssgrid #content-resume {
+  .cssgrid #content-resume,
+  .cssgrid #content-home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
@@ -228,6 +238,14 @@ figcaption {
   }
 
   .cssgrid #experience {
+    grid-column: 2/4;
+  }
+
+  .cssgrid #about {
+    grid-column: 1;
+  }
+
+  .cssgrid #picture {
     grid-column: 2/4;
   }
 }
