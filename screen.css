@@ -151,6 +151,10 @@ figcaption {
   background-color: purple;
 }
 
+#footer {
+  padding-top: 5%;
+}
+
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -180,10 +184,10 @@ figcaption {
   cursor: pointer;
 }
 
-
 #slideshow {
     margin: auto;
     position: relative;
+
 }
 .slide {
     position: absolute;
@@ -192,6 +196,10 @@ figcaption {
 @media screen and (min-width: 375px) {
   padding-right: 11.2%; /* 42 / 375 = 11.2% */
   padding-left: 11.2%; /* 42 / 375 = 11.2% */
+}
+
+#gaming {
+  padding-top: 80%;
 }
 
 #slideshow {
@@ -233,12 +241,20 @@ figcaption {
 #slideshow {
     margin: auto;
     position: relative;
+    padding-top: 1.222em;
+    padding-bottom: 1.222em;
 }
 .slide {
     position: absolute;
+    padding-top: 1.222em;
+    padding-bottom: 1.222em;
 }
 
 @media screen and (min-width: 860px) {
+
+  #gaming {
+    padding-top: 0;
+  }
 
   .cssgrid #content,
   .cssgrid #content-resume,
@@ -280,9 +296,12 @@ figcaption {
   }
 
   #slideshow {
-      margin: 0 auto;
-      position: relative;
+      margin: auto;
+      padding-top: 1.222em;
+      padding-bottom: 1.222em;
   }
   .slide {
       position: absolute;
+      padding-top: 1.222em;
+      padding-bottom: 1.222em;
   }
