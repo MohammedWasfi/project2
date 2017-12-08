@@ -176,6 +176,11 @@ figcaption {
   3. Organized by Base, Layout, Module, State
 */
 
+.js abbr {
+  cursor: pointer;
+}
+
+
 #slideshow {
     margin: auto;
     position: relative;
