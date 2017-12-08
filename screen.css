@@ -185,12 +185,12 @@ figcaption {
 }
 
 #slideshow {
-    margin: auto;
-    position: relative;
+  margin: auto;
+  position: relative;
 
 }
 .slide {
-    position: absolute;
+  position: absolute;
 }
 
 @media screen and (min-width: 375px) {
@@ -203,11 +203,11 @@ figcaption {
 }
 
 #slideshow {
-    margin: auto;
-    position: relative;
+  margin: auto;
+  position: relative;
 }
 .slide {
-    position: absolute;
+  position: absolute;
 }
 
 
@@ -239,15 +239,15 @@ figcaption {
 }
 
 #slideshow {
-    margin: auto;
-    position: relative;
-    padding-top: 1.222em;
-    padding-bottom: 1.222em;
+  margin: auto;
+  position: relative;
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
 }
 .slide {
-    position: absolute;
-    padding-top: 1.222em;
-    padding-bottom: 1.222em;
+  position: absolute;
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
 }
 
 @media screen and (min-width: 860px) {
@@ -296,12 +296,13 @@ figcaption {
   }
 
   #slideshow {
-      margin: auto;
-      padding-top: 1.222em;
-      padding-bottom: 1.222em;
+    margin: auto;
+    padding-top: 1.222em;
+    padding-bottom: 1.222em;
   }
   .slide {
-      position: absolute;
-      padding-top: 1.222em;
-      padding-bottom: 1.222em;
+    position: absolute;
+    padding-top: 1.222em;
+    padding-bottom: 1.222em;
   }
+}
