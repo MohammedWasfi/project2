@@ -176,10 +176,27 @@ figcaption {
   3. Organized by Base, Layout, Module, State
 */
 
+#slideshow {
+    margin: auto;
+    position: relative;
+}
+.slide {
+    position: absolute;
+}
+
 @media screen and (min-width: 375px) {
   padding-right: 11.2%; /* 42 / 375 = 11.2% */
   padding-left: 11.2%; /* 42 / 375 = 11.2% */
 }
+
+#slideshow {
+    margin: auto;
+    position: relative;
+}
+.slide {
+    position: absolute;
+}
+
 
 @media screen and (min-width: 640px) {
 
@@ -206,6 +223,14 @@ figcaption {
     grid-column: 2/4;
   }
 
+}
+
+#slideshow {
+    margin: auto;
+    position: relative;
+}
+.slide {
+    position: absolute;
 }
 
 @media screen and (min-width: 860px) {
@@ -248,4 +273,11 @@ figcaption {
   .cssgrid #picture {
     grid-column: 2/4;
   }
-}
+
+  #slideshow {
+      margin: 0 auto;
+      position: relative;
+  }
+  .slide {
+      position: absolute;
+  }
